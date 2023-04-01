@@ -13,8 +13,14 @@ img#steam{
 main nav#barra_busca{
     padding: 10px;
     background-image: linear-gradient(to right, #338bd2, #0F216E);
+    height: 20px;
+    min-width: 400px;
+    max-width: 940px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.373);
 }
-
 
 .texto_busca{
     color: white;
