@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root{
+    --header_color: #171A21;
+    --bg_color: #203153;
+    --bg_game_color: #0A141D;
+    --hover_color: white;
+    --font_color: silver;
+}
+
+
 a:hover{
     color: white;
     transition: 0.8s;
@@ -8,6 +17,13 @@ a:hover{
 img#steam{
     min-width: 100px;
     max-width: 300px;
+}
+
+img#re4_logo{
+    
+
+    min-width: 100px;
+    max-width: 400px;    
 }
 
 main nav#barra_busca{
@@ -22,6 +38,24 @@ main nav#barra_busca{
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.373);
 }
 
+article div#game_background{
+    display: flex;
+    justify-content: start;
+    background-color: var(--bg_game_color);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.504);
+    margin: auto;
+    background-color: black;
+    min-width: 300px;
+    max-width: 965px;
+    height: 400px;
+}
+
+article div nav#re4_name{
+    font-size: 2.3em;
+    margin-left: 90px;
+    color: white;
+}
+
 .texto_busca{
     color: white;
     text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.305);
@@ -33,4 +67,5 @@ main nav#barra_busca{
 .texto_busca:hover{
     background-color: #2f75af;
 }
+
 
