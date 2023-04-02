@@ -38,48 +38,57 @@ main nav#barra_busca{
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.373);
 }
 
-article{
-    align-items: start;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.742);
-    display: flex;
-    margin: auto;
-    background-color: black;   
-    min-width: 200px;
-    max-width: 960px;
 
+div#geral{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 350px;
+    grid-template-rows: 100px;
+
+}
+
+div#imagem_container{
+    
+    display: grid;
+    justify-content: center;
+    align-items: start;
+
+}
+
+div#text_container{
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    display: flex;
+    color: white;
+    font-size: 1.7em;
+
+}
+
+
+div#imagem{
+
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 100px 100px;
+
+}
+
+div#imagem img{
+    width: 130px;
 }
 
 article div#game_background{
-    
     background-image: url(../img/re4/re4_logo.webp);
-    height: 353px;
-    width: 625px;
-    background-attachment: scroll;
+    height: 355px;
+    width: 600px;
+    background-size: 100%;
+
+    background-position: start ;
     background-repeat: no-repeat;
-    background-size: cover;  
 }
-
-article div#game_name{
-    padding-top: 25px;
-    min-width: 200px;
-    max-width: 400px;
-    font-size: 1.8em;
-    padding-left: 0px;
-    color: white;    
-
-}
-
-img#re4_mini{
-    width: 80px;
-}
-
-
-article div#geral{
-   display: grid;
-   grid-template-columns: 3 50px;  
-   grid-template-rows: 100px 100px;
-}
-
 
 
 .texto_busca{
