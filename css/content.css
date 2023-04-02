@@ -74,11 +74,7 @@ img#re4_mini{
 }
 
 
-article div#geral{
-   display: grid;
-   grid-template-columns: 3 50px;  
-   grid-template-rows: 100px 100px;
-}
+
 
 
 
