@@ -19,12 +19,10 @@ img{
 }
 
 h3{
-    max-width: 740px;
-    display: flex;
-    justify-content: center;
+    width: fit-content;
+    text-align: center;
     padding-bottom: 10px;
-    margin-right: 740px;
-    
+    margin-left: 240px;
     padding-top: 40px;
     font-weight: normal;
     color: white;
@@ -35,13 +33,13 @@ header{
     padding: 40px;
     height: 60px;
     min-width: 300px;
-    max-width: 1500px;
+    max-width: auto;
     background-color: var(--header_color);
 }
 
 main{
     background-color: var(--bg_color);
-    height: 700px;
+    height: 2000px;
     padding: 20px;
 }
 
