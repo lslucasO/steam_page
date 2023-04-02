@@ -38,23 +38,49 @@ main nav#barra_busca{
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.373);
 }
 
-article div#game_background{
+article{
+    align-items: start;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.742);
     display: flex;
-    justify-content: start;
-    background-color: var(--bg_game_color);
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.504);
     margin: auto;
-    background-color: black;
-    min-width: 300px;
-    max-width: 965px;
-    height: 400px;
+    background-color: black;   
+    min-width: 200px;
+    max-width: 960px;
+
 }
 
-article div nav#re4_name{
-    font-size: 2.3em;
-    margin-left: 90px;
-    color: white;
+article div#game_background{
+    
+    background-image: url(../img/re4/re4_logo.webp);
+    height: 353px;
+    width: 625px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
+
+article div#game_name{
+    padding-top: 25px;
+    min-width: 200px;
+    max-width: 400px;
+    font-size: 1.8em;
+    padding-left: 0px;
+    color: white;    
+
+}
+
+img#re4_mini{
+    width: 80px;
+}
+
+
+article div#geral{
+   display: grid;
+   grid-template-columns: 3 50px;  
+   grid-template-rows: 100px 100px;
+}
+
+
 
 .texto_busca{
     color: white;
