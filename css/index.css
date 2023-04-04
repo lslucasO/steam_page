@@ -4,6 +4,7 @@
     --header_color: #171A21;
     --bg_color: #203153;
     --bg_game_color: #0A141D;
+    --bg_offer_color: #1B293A;
     --hover_color: white;
     --font_color: silver;
 }
@@ -19,15 +20,6 @@ img{
     width: 100%;
 }
 
-h3{
-    text-align: start;
-    padding-bottom: 10px;
-    padding-left: 240px;
-    padding-top: 40px;
-    font-weight: normal;
-    color: white;
-    font-size: 0.9em;
-}
 
 header{
     padding: 40px;
@@ -38,8 +30,9 @@ header{
 }
 
 main{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.734);
     background-color: var(--bg_color);
-    height: 900px;
+    height: 500px;
     padding: 20px;
 }
 
@@ -77,3 +70,6 @@ div{
 span{
     cursor: pointer;
 }
+
+
+
