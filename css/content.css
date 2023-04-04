@@ -76,6 +76,20 @@ div#imagem{
 
 }
 
+div#button{
+    justify-content: start;
+    display: flex;
+}
+
+
+a#ver_mais{
+    font-size: 12px;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+
+
 div#imagem img{
     width: 130px;
 }
@@ -91,9 +105,9 @@ article div#game_background{
 
 
 main#categories_offer{
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.782);
+    box-shadow: 2px 5px 7px rgb(0, 0, 0);
     padding-right: 20px;
-    min-width: 1500px;
+    min-width: 300px;
     max-width: 1500px;
     background-color: var(--bg_offer_color);
 }
@@ -113,6 +127,7 @@ div#image_offer_container_bg{
 }
 
 section h3#offer_text{
+    padding-right: 690px;
     padding-left: 240px;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -120,7 +135,7 @@ section h3#offer_text{
 
 section#offer_container{
 
-    padding-right: 70px;
+    padding-right: 10px;
 }
 
 .categories_image{
