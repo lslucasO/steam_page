@@ -90,36 +90,46 @@ article div#game_background{
 }
 
 
-section#offer_container{
-
+main#categories_offer{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.782);
+    padding-right: 20px;
+    min-width: 1500px;
+    max-width: 1500px;
     background-color: var(--bg_offer_color);
-    height: 500px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.864);
 }
 
 
+
+div#image_offer_container_bg{
+    align-items: center;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.77);
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    height: 340px;
+    min-width: 300px;
+    max-width: 950px;
+    background-color: rgb(0, 0, 0);
+}
+
 section h3#offer_text{
-    padding-left: 260px;
+    padding-left: 240px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
-section div#image_offer_container_background{
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.782);
-   
-    margin: auto;
-    display: flex;
-    padding-right: 20px;
-    min-width: 200px;
-    max-width: 940px;
-    background-color: black;
-    height: 350px;
+section#offer_container{
+
+    padding-right: 70px;
 }
 
-.offer_image{
+.categories_image{
+    width: 250px;
+}
 
-    padding-left: 15px;
-    display: flex;
+
+.offer_image{
+    padding: 5px;
     cursor: pointer;
 }
 
