@@ -105,6 +105,7 @@ article div#game_background{
 
 
 main#categories_offer{
+    height: 1200px;
     box-shadow: 2px 5px 7px rgb(0, 0, 0);
     padding-right: 20px;
     min-width: 300px;
@@ -134,7 +135,7 @@ section h3#offer_text{
 }
 
 section#offer_container{
-
+    padding-bottom: 70px;
     padding-right: 10px;
 }
 
@@ -147,6 +148,40 @@ section#offer_container{
     padding: 5px;
     cursor: pointer;
 }
+
+.offer_image:hover{
+    width: 45%;
+}
+
+
+.categories_image_size{
+    padding-left: 10px;
+    height: 200px;
+
+}
+
+.categories_image_size:hover{
+    width: 100%;
+}
+
+
+
+
+div#categories_image{
+    justify-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.751);
+    background-color: rgba(0, 0, 0, 0.263);
+    margin: auto;
+    display: flex;
+    min-width: 300px;
+    max-width: 940px;
+}
+
+section#categories_section{
+
+    padding-right: 20px;
+}
+
 
 .texto_busca{
     color: white;
@@ -168,4 +203,8 @@ section#offer_container{
     font-weight: normal;
     color: white;
     font-size: 0.9em;
+}
+
+h3.texts#text_categories{
+    padding-bottom: 15px;
 }
